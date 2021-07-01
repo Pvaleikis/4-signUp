@@ -1,0 +1,18 @@
+body{
+
+}
+
+.container {
+    display: inline-block;
+    width: 800px;
+}
+.leftColumn{
+    width: 40%;
+    float: left;
+    background-color: yellow;
+}
+.rightColumn{
+    width: 60%;
+    float:left;
+    background-color: red;
+}
