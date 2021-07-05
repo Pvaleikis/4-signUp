@@ -6,7 +6,6 @@
 # Sign-up
 
 
-This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
 Site published at https://pvaleikis.github.io/4-signUp/
 
