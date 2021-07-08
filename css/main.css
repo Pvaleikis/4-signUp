@@ -2,7 +2,7 @@ body{
     background-color: #05B7D9;
 
 }
-a{
+.bottomn-text > a {
     color:#fff
 }
 
@@ -19,12 +19,15 @@ a{
     color: #fff;
     padding: 40px;
     padding-bottom: 20px;
+    background-image: url(../img/fonas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
-h1 {
 
-}
+
+
 
 .rightColumn{
     width: 60%;
