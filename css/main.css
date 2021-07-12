@@ -1,20 +1,40 @@
 body{
     background-color: #05B7D9;
-
+    
 }
+  
 .bottomn-text > a {
     color:#fff
+}
+.bottomn-text {
+
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    right: 40px;
+}
+
+.background{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/fonas.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(15px);
 }
 
 .container {
     display: inline-block;
     width: 800px;
-    margin-top: 150px;
-    margin-left: calc(50% - 400px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
 .leftColumn{
     width: 40%;
-    float: left;
     background-color: #442CA0;
     color: #fff;
     padding: 40px;
@@ -22,6 +42,9 @@ body{
     background-image: url(../img/fonas.png);
     background-repeat: no-repeat;
     background-size: cover;
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
 
 }
 
@@ -39,7 +62,7 @@ body{
 .rightColumn{
     position: relative;
     width: 60%;
-    float:left;
+    float: right;
     background-color: #fff;
     padding: 60px;
 }
