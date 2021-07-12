@@ -32,25 +32,7 @@ form > .form-row > input{
     border-bottom: 1px solid #ccc;
 }
 
-form > .form-row > button {
-    font-size: 20px;
-    line-height: 26px;
-    text-transform: capitalize;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 20px;
-    background-color: #442CA0;
-    color: #fff;
-    border: none;
-    background: rgb(9,1,144);
-background: linear-gradient(90deg, rgba(9,1,144,1) -10%, rgba(0,34,216,1) 0%, rgba(0,61,255,1) 100%);
 
-    
-}
-
-form > .form-row > button:hover{
-    cursor: pointer;
-}
 
 form > .form-row > span{
     display: inline-block;
