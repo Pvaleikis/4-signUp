@@ -25,11 +25,19 @@ body{
 
 }
 
+.iksas{
+    display: inline-block;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    position: absolute;
 
+}
 
 
 
 .rightColumn{
+    position: relative;
     width: 60%;
     float:left;
     background-color: #fff;
